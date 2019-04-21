@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Utilities */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(4, 97, 46);
+  color: #fff;  
+  font-size: 1.5rem;
+}
+
+header span {
+  align-self: center;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul li a:hover {
+  /* color: #ccc; */
+  background: darkolivegreen;
+  border-radius: 25px;
+}
+
+
+/* Main */
+
+.main-style {
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+}
+
+#home {
+  background: rgb(4, 97, 46) url('wiese1.jpg') no-repeat center center/cover;
+}
+
+#aktuelles {
+  background: rgb(4, 97, 46) url('wiese2.jpg') no-repeat center center/cover;
+}
+
+#buch {
+  background: rgb(4, 97, 46) url('wiese3.jpg') no-repeat center center/cover;
+}
+
+#kontakt {
+  background: rgb(4, 97, 46) url('wiese4.jpg') no-repeat center center/cover;
+}
+
+#home .container,
+#aktuelles .container,
+#buch .container,
+#kontakt .container {
+  background: rgba(4, 97, 46, 0.7);
+  max-width: 75%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+main h1,
+main p {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+  height: 100px;
+  background: rgb(4, 97, 46);
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
